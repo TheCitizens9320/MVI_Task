@@ -151,9 +151,10 @@ print(calculateBenefit(283.44115599631499264))
 print("my:")
 print(calculateBenefit(right))
 # print(right)
-# result = 1000*reserversUNI[28]*right/(997*(reserversUNI[29]+right))
-# print("WETH: ")
-# print(result)
+result = 1000*reserversUNI[28]*right/(997*(reserversUNI[29]+right))
+print("WETH: ")
+print(result)
+print("Time")
 print(time.time()-time1)
 
 
